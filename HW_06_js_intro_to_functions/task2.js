@@ -1,10 +1,6 @@
 // Function to check if a person is an adult
 function isAdult(age) {
-    if (age >= 18) {
-        return true;
-    }   else {
-        return false;
-    }
+    return age >= 18;
 }
 // Test the function with different ages
 let age = 25;
