@@ -1,8 +1,8 @@
-function isEven() {
+function processEven() {
     console.log("number is even");
 }
 
-function isOdd() {
+function processOdd() {
     console.log("number is odd");  
 } 
 
@@ -15,5 +15,5 @@ function handleNum(num, handleEven, handleOdd) {
 }
 
 // Example usage:
-handleNum(3, isEven, isOdd); // number is odd
-handleNum(4, isEven, isOdd); // number is even
+handleNum(3, processEven, processOdd); // number is odd
+handleNum(4, processEven, processOdd); // number is even
