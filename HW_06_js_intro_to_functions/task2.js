@@ -4,7 +4,7 @@ function isAdult(age) {
 }
 // Test the function with different ages
 let age = 25;
-console.log("Is age " + age + " adult? " + isAdult(age));// Expected: false
+console.log(`Is age ${  age  } adult? ${  isAdult(age)}`);// Expected: false
 
 age = 15;
-console.log("Is age " + age + " adult? " + isAdult(age));// Expected: true
+console.log(`Is age ${  age  } adult? ${  isAdult(age)}`);// Expected: true

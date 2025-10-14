@@ -3,7 +3,7 @@ const firstName = "Olena";
 const secondName = "Alex";
 
 // String concatenation
-const greetingConcat = "Hello, " + firstName + " and " + secondName + "!";
+const greetingConcat = `Hello, ${  firstName  } and ${  secondName  }!`;
 console.log("Concatenation:", greetingConcat);
 
 // Template literal

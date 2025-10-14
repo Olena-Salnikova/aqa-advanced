@@ -3,7 +3,7 @@ const book = {
     author: "F. Scott Fitzgerald",
     yearPublished: 1925,
 };
-const {title, author} = book;
+const { title, author } = book;
 
-console.log("Title: " + title);
-console.log("Author: " + author);
+console.log(`Title: ${  title}`);
+console.log(`Author: ${  author}`);
