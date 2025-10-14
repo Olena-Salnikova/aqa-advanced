@@ -1,5 +1,5 @@
 // Declare a variable for the student's average grade (0 - 100)
-let averageGrade = 100;
+const averageGrade = 100;
 
 // Determine the performance level using switch(true)
 switch (true) {

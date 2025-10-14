@@ -2,4 +2,4 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 
 // Output the even numbers
-console.log('Even Numbers:', evenNumbers);
+console.log("Even Numbers: ", evenNumbers);

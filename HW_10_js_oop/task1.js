@@ -36,6 +36,6 @@ ebookFromBook.printInfo();
 console.log("------------------");
 
 // Using getters and setters
-console.log("Getting book title: " + book1.title); // Getter   
+console.log(`Getting book title: ${  book1.title}`); // Getter   
 book1.title = "The Great Gatsby - Updated"; // Setter
-console.log("Updating book title: " + book1.title); // Getter after update
+console.log(`Updating book title: ${  book1.title}`); // Getter after update

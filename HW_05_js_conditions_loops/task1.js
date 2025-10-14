@@ -1,5 +1,5 @@
 // Declare a variable for the student's average grade (0 - 100)
-let averageGrade = 101;
+const averageGrade = 101;
 
 // Use if...else if...else to determine the performance level
 if (averageGrade < 0 || averageGrade > 100) {
